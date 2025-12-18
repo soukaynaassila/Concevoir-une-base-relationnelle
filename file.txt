@@ -1,3 +1,48 @@
+chapiter 1:Identifier les entités et relations
+1️⃣ Entités
+
+Ex:
+
+Utilisateur
+
+Article
+
+Commentaire
+
+2️⃣ Attributs
+
+خصائص ديال entité:
+
+id
+
+nom
+
+email
+
+date
+
+
+3️⃣ Relations
+
+الروابط بين entités:
+
+Utilisateur — rédige — Article
+
+Article — reçoit — Commentaire
+
+4️⃣ Cardinalités
+EX:
+1
+N
+0..N
+1..N
+
+Ex:
+
+Utilisateur (1) —— (N) Article
+*********************************************************************
+Chapitre 2 – Élaborer un MCD/MLD
+************************************************************************
 MSD = Modèle Conceptuel de Données
  MSD helps us to:
     - understand how the data is connected
