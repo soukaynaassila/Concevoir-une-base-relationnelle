@@ -1,0 +1,23 @@
+MSD = Modèle Conceptuel de Données
+ MSD helps us to:
+    - understand how the data is connected
+    - plan the database before starting to code
+    - work in an organized way and avoid getting lost in SQL
+
+*************************************************************************
+MLD = Modèle Logique de Données
+  MLD helps us turn the idea (MCD) into something executable.
+
+Meaning:
+
+We don’t stay only at the diagram/drawing stage
+
+We prepare real database tables
+
+We know exactly what we are going to write in SQL
+*********************************************************************************
+  =>MCD = we understand what we want
+  =>MLD = we prepare/design the tables
+  =>SQL = we implement (code)
+
+( MLD is the bridge between the idea and the code)
