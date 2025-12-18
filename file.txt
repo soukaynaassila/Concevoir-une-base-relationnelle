@@ -1,4 +1,5 @@
-chapiter 1:Identifier les entités et relations
+     🌸chapiter 1:Identifier les entités et relations🌸
+***********************************************************
 1️⃣ Entités
 
 Ex:
@@ -41,15 +42,15 @@ Ex:
 
 Utilisateur (1) —— (N) Article
 *********************************************************************
-Chapitre 2 – Élaborer un MCD/MLD
+    🌸Chapitre 2 – Élaborer un MCD/MLD🌸
 ************************************************************************
-MSD = Modèle Conceptuel de Données
- MSD helps us to:
+🕯️MSD = Modèle Conceptuel de Données
+🕯️MSD helps us to:
     - understand how the data is connected
     - plan the database before starting to code
     - work in an organized way and avoid getting lost in SQL
 
-*************************************************************************
+
 MLD = Modèle Logique de Données
   MLD helps us turn the idea (MCD) into something executable.
 
@@ -66,3 +67,24 @@ We know exactly what we are going to write in SQL
   =>SQL = we implement (code)
 
 ( MLD is the bridge between the idea and the code)
+
+*************************************************************************************
+       🌸Chapitre 3 – Manipuler un fichier de modélisation🌸
+*************************************************************************************
+     What is a modeling file?
+         📁 a file that stores the design of a database,
+including the MCD (Conceptual Data Model) and/or the MLD (Logical Data Model),
+ created using a modeling tool such as Looping or Draw.io.
+
+It contains:
+-entities
+-attributes
+-relationships
+-cardinalities
+
+It is:
+-well organized
+-editable
+-used as a reference before creating the SQL database
+
+👉 In short, it is the blueprint of the database.
