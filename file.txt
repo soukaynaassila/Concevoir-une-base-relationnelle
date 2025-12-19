@@ -183,3 +183,23 @@ In a 1–N relationship, the foreign key is placed on the N side
 Use SHOW TABLES and DESCRIBE to check the structure
 
 Test with INSERT statements to ensure everything works
+
+******************************************************************************
+        🌸Chapitre 6 – Bonnes pratiques de structuration 🌸
+      *******************************************************
+
+A database must be well structured and easy to maintain
+
+Use clear, lowercase names without spaces or accents
+
+Normalization reduces redundancy and data anomalies
+
+Primary keys uniquely identify records
+
+Foreign keys link tables together
+
+Indexes improve query performance
+
+Comments/documentation make the database easier to understand
+
+   => Good structure = better performance and easier maintenance
