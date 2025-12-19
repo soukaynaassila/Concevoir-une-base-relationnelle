@@ -88,3 +88,98 @@ It is:
 -used as a reference before creating the SQL database
 
 👉 In short, it is the blueprint of the database.
+*********************************************************************************
+      🌸Chapitre 4 – Créer des tables avec types et contraintes🌸
+      *************************************************************
+1️⃣ CREATE TABLE statement
+
+The CREATE TABLE command in SQL is used to create a new table in a database.
+
+2️⃣ Data types
+
+They define the type of data stored in each column:
+
+INT → integer numbers (e.g. id)
+
+VARCHAR(n) → short text (name, email)
+
+TEXT → long text (content)
+
+DATE → date values
+
+BOOLEAN → true / false
+
+Choosing the correct data type is essential for a good database design.
+
+3️⃣ PRIMARY KEY
+
+Uniquely identifies each record in a table
+
+Cannot be duplicated
+
+Cannot be NULL
+
+Example:
+
+id INT PRIMARY KEY
+
+4️⃣ Constraints
+
+NOT NULL → value is mandatory
+
+UNIQUE → value must be unique
+
+DEFAULT → default value
+
+AUTO_INCREMENT → value increases automatically
+
+Constraints help protect the database from invalid data.
+
+5️⃣ FOREIGN KEY
+
+Creates a link between two tables
+
+Ensures data consistency
+
+Example:
+FOREIGN KEY (id_utilisateur) REFERENCES Utilisateur(id)
+
+*************************************************************************
+        🌸 Chapitre 5 – Écrire un script SQL de création complet🌸
+    ********************************************************************
+   ^_____^ Summary
+This chapter explains how to create a database using SQL and how to link tables correctly.
+
+🔑 PRIMARY KEY
+
+Uniquely identifies each row in a table
+
+Must be unique and not NULL
+
+Ensures that every record is clearly identified
+
+🔗 FOREIGN KEY
+
+Links one table to another
+
+References the PRIMARY KEY of another table
+
+Ensures data consistency between tables
+
+🛠 CREATE TABLE
+
+SQL command used to create a table
+
+Defines columns, data types, and constraints
+
+🧱 Relationships
+
+Relationships are created using FOREIGN KEY
+
+In a 1–N relationship, the foreign key is placed on the N side
+
+✅ Verification
+
+Use SHOW TABLES and DESCRIBE to check the structure
+
+Test with INSERT statements to ensure everything works
